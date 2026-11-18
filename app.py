@@ -1,5 +1,5 @@
 import streamlit as st
 from groq import Groq
-st.set_page_configure(page_title ='',page_icon = '😡',layout='')
+st.set_page_config(page_title ='',page_icon = '😡',layout='')
 st.title('AI Interview Assistent')
 st.caption('Practice and Prepare for your Placements here')
