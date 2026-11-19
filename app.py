@@ -23,7 +23,7 @@ elif mode == 'Generate Code Question':
 else:
   question = st.text_area('Enter Interview Questions here')
   answer = st.text_area('Enter your answer', height=160)
-  if st.button ("Generate AI Response",type = "primary"):
-if mode == (['Evaluate Answers', 'Improve Answer'] and (not question.strip()) or (not answer.strip()))
+if st.button ("Generate AI Response",type = "primary"):
+if mode in ['Evaluate Answers', 'Improve Answer'] and (not question.strip()) or (not answer.strip()):
  st.warning("Please enter the valid Question and Answer")
  st.stop()                                                                               
